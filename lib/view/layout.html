@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bramble MVC</title>
+        <link rel="stylesheet" type="text/css" href="/styles/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+	</head>
+	<body>
+		<header id='main-header'>
+            <a href="{{ url('/') }}" class="content-width"><h1>Bramble MVC</h1> <img alt="blog" src="/img/speech.svg" /></a>
+        </header>
+        <section id="main-content" class="content-width">
+            {% block content %}
+            {% endblock %}
+        </section>
+        
+		<footer class="content-width">
+            <p>created by <a href="{{ url('/more-info') }}">Bramble MVC</a></p>
+        </footer>
+	</body>
+</html>

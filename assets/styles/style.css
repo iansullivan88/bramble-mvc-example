@@ -1,0 +1,159 @@
+@font-face {
+    font-family: open_sans;
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+     url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+     url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: open_sans;
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+     url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+     url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: open_sans;
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+     url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+     url('../fonts/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-style: normal;
+    font-weight: 900;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: open_sans, sans-seif;
+    background: #323296;
+    color: #ddd;
+}
+
+h1, h2, h3, h4 {
+    text-decoration: inherit;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+code {
+    font-family:consalas, monospace;
+}
+
+strong {
+    font-weight:700;
+}
+
+em {
+    font-style: italic;
+}
+
+ul {
+    margin-top:1em;
+    list-style: disc;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: inherit;
+    font-weight: 700;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content-width {
+    display: block;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header#main-header {
+    background: #000;
+}
+
+header#main-header a {
+    padding: 2em;
+}
+
+header#main-header img {
+    display: inline-block;
+    width: 40px;
+    margin-left: 30px;
+}
+
+header#main-header h1 {
+    display: inline-block;
+    font-weight:900;
+    font-size:2em;
+}
+
+section#main-content {
+    padding: 2em;
+    font-size:0.9em;
+}
+
+#post-title {
+    font-size:2em;
+    margin-bottom:1em;
+}
+
+footer {
+    padding:0 2em;
+}
+
+footer p {
+    border-top:1px solid #888;
+    font-size:12px;
+    padding:1em 0;
+}
+
+p.intro {
+    margin: 2em 0 4em 0;
+    padding:1em 0;
+    text-align: center;
+    font-style: italic;
+    border-top:1px solid #888;
+    border-bottom:1px solid #888;
+}
+
+#post-list article {
+    margin-bottom: 2em;
+}
+
+#post-list .post-info, #post-content {
+    margin-top: 0.5em;
+    line-height:1.2em;
+}
+
+#post-list h2 {
+    display:inline-block;
+    font-size:1.2em;
+}
+
+article#post p {
+    margin-bottom:1em;
+}
+
+.page-button {
+    margin-right:30px;
+}
+
+.page-button.disabled {
+    opacity:0.5;
+}

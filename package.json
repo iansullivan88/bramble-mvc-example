@@ -1,0 +1,12 @@
+{
+    "name": "bramble-mvc-blog",
+    "version": "0.1.0",
+    "main": "build.js",
+    "dependencies": {
+        "bramble-mvc": "~0.2.0",
+        "front-matter": "~0.2.0",
+        "marked": "~0.3.2",
+        "moment": "~2.8.3",
+        "ncp": "~0.6.0"
+    }
+}

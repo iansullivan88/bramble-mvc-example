@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<article id="post">
+    <h1 id="post-title">{{ post.title }}</h1>
+    <time dateTime="{{ post.publishedISO8601 }}">{{ post.publishedFormatted }}</time>
+    <section id="post-content">
+        {{ post.content }}
+    </section>
+
+</article>
+
+{% endblock %}
