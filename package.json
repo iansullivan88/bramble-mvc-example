@@ -1,12 +1,17 @@
 {
-    "name": "bramble-mvc-blog",
-    "version": "0.1.0",
+    "name": "bramble-mvc-example-blog",
+    "version": "0.2.0",
     "main": "build.js",
+    "description": "An example blog created using Bramble MVC",
     "dependencies": {
-        "bramble-mvc": "~0.2.0",
+        "bramble-mvc": "0.2.x",
         "front-matter": "~0.2.0",
         "marked": "~0.3.2",
         "moment": "~2.8.3",
         "ncp": "~0.6.0"
-    }
+    },
+    "keywords": ["node.js", "static", "site", "generator", "mvc", "bramble", "blog"],
+    "author": "Ian Sullivan",
+    "license": "MIT",
+    "readmeFilename": "README.md"
 }
