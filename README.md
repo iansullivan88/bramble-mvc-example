@@ -7,7 +7,7 @@ Structure
 ---------
 View files are located in `lib/view`.
 Markdown files containing markdown are stored in `lib/posts`.
-Code for reading the blog posts from the filesystem live in `\lib\data`.
+Code for reading the blog posts from the file system live in `\lib\data`.
 The main entry point for building the website is in `build.js`.
 
 Routes
@@ -34,7 +34,7 @@ Routes
 
     bramble.build(viewPath, outputDirectory, brambleBuildComplete);
 ```
-Using the `get` method, handlers can be associated with urls and allow you to execute code prior to rendering a view. You can retreive data from any source you like and pass it into a view for rendering. The final line tells Bramble MVC to build the site and export it to the specified output directory.
+Using the `get` method, handlers can be associated with urls and allow you to execute code prior to rendering a view. You can retrieve data from any source you like and pass it into a view for rendering. The final line tells Bramble MVC to build the site and export it to the specified output directory.
 
 Views
 -----
