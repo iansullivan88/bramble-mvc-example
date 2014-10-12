@@ -1,6 +1,7 @@
 Bramble MVC Example Blog
 ========================
 This repository contains a project that uses [Bramble MVC](https://github.com/iansullivan88/bramble-mvc) to generate a static multi-user blog site. To build the site, use `npm install` and then `node build`.
+
 ![Screenshot](screenshot.png)
 
 Structure
