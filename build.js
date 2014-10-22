@@ -32,7 +32,7 @@ bramble.get('/blog/author/:name', function(req, res) {
 
 bramble.get('/blog/post/:postName', function(req, res) {
     res.view("post", {
-        post: blogRepository.getPost(req.postName)
+        post: blogRepository.getPost(req.parameters.postName)
     });
 });
 
